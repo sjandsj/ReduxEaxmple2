@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import {connect} from 'react-redux';
 import {addPlace} from './Root/Actions/place';
-import {ListItem} from './Root/Components/ListItem';
+import ListItem from './Root/Components/ListItem';
 
 class ReduxExample2 extends Component {
   state = {

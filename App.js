@@ -12,6 +12,11 @@ import {addPlace} from './Root/Actions/place';
 import ListItem from './Root/Components/ListItem';
 
 class ReduxExample2 extends Component {
+
+  constructor(props) {
+    super(props);
+    console.log("<><><><><><>");
+  }
   state = {
     placeName: '',
     places: [],
@@ -42,6 +47,7 @@ class ReduxExample2 extends Component {
   };
 
   render() {
+    console.log("<><><><><><")
     return (
       <View style={myStyle.mainContainer}>
         <View style={myStyle.innerContainer}>
